@@ -11,34 +11,124 @@
 </head>
 
 <body>
-    <header class="flex my-4 mx-16">
-        <img src="assets/logo.svg" alt="" class="h-6 mx-3">
-        <div class="font-normal hover:underline underline-offset-4 mx-3 text-sm mt-1 cursor-pointer"><a href="">Microsft 365 </a></div>
-        <div class="font-normal hover:underline underline-offset-4 mx-3 text-sm mt-1 cursor-pointer"><a href="/win10.html">Windows 10</a></div>
-        <div class="font-normal hover:underline underline-offset-4 mx-3 text-sm mt-1 cursor-pointer"><a href="">Windows 11</a></div>
-        <div class="font-normal hover:underline underline-offset-4 mx-3 text-sm mt-1 cursor-pointer"><a href="">Support</a></div>
-        <div class="font-normal hover:underline underline-offset-4 mx-3 text-sm mt-1 cursor-pointer"><a href="">About</a></div>
-        
-        <!-- <div class="ml-52">
-            <input id="input-search" class="border-2 border-black h-7" type="text">
-            <button class="-m-2  border-2 border-black w-24 h-7 font-medium active:text-white active:bg-black border-l-0">SEARCH</button>
-        </div> -->
-        
-
-        <div id="account" class="flex ml-96">
-            <p id="u-name">
-                Hello ! 
-            </p>          
+    <div id="page-top"></div>
+    <header class="flex my-4 m-auto mx-16">
+        <div class="flex"><a href="/index.html">
+                <img src="assets/logo.svg" alt="" class="h-6 mx-3">
+            </a>
+            <div class="font-normal hover:underline underline-offset-4 mx-3 text-sm mt-1 cursor-pointer"><a
+                    href="">Microsft
+                    365 </a></div>
+            <div class="font-normal hover:underline underline-offset-4 mx-3 text-sm mt-1 cursor-pointer"><a
+                    href="/win10.html">Windows 10</a></div>
+            <div class="font-normal hover:underline underline-offset-4 mx-3 text-sm mt-1 cursor-pointer"><a
+                    href="/win11.html">Windows
+                    11</a></div>
+            <div class="font-normal hover:underline underline-offset-4 mx-3 text-sm mt-1 cursor-pointer"><a
+                    href="/support.html">Support</a></div>
+            <div class="font-normal hover:underline underline-offset-4 mx-3 text-sm mt-1 cursor-pointer"><a
+                    href="/about.html">About</a></div>
         </div>
-        <button class="mx-10 border-2 border-black  w-24 h-7 font-medium hover:text-white hover:bg-black">LOGIN</button>
+        <div class="ml-60"></div>
+        <!-- <div class="m-auto flex">
+            <input id="input-search" class="border-2 border-black h-7 p-2" type="text" placeholder="search">
+            <button
+                class="-ml-2 border-2 border-black w-24 h-7 font-medium active:text-white active:bg-black border-l-0">SEARCH</button>
+        </div> -->
+
+
+        <div id="account" class="mt-1 flex ml-96 mx-5 m">
+            <p id="u-name">
+                Hello !
+            </p>
+        </div>
+        <a href="/login.html">
+            <button
+                class="border border-blue-500 bg-blue-500 rounded-sm  w-28 h-8 text-white font-medium hover:bg-blue-600">LOGIN</button></a>
     </header>
     <main>
-
+        <div id="slider"><img src="/assets/s1.jfif" alt=""></div>
+        <div class="my-10 flex place-content-center">
+            <div class=" mx-5">
+                <img class="m-auto" src="/assets/winsm.jfif" alt="">
+                <p class="text-blue-600 underline cursor-pointer my-3 font-medium">Get Windows 10</p>
+            </div>
+            <div class=" mx-5">
+                <img class="m-auto" src="/assets/surfsm.jfif" alt="">
+                <p class="text-blue-600 underline cursor-pointer my-3 font-medium">Explore Surface Devices</p>
+            </div>
+            <div class=" mx-5">
+                <img class="m-auto" src="/assets/xboxsm.jfif" alt="">
+                <p class="text-blue-600 underline cursor-pointer my-3 font-medium">Buy Xbox Games</p>
+            </div>
+            <div class=" mx-5">
+                <img class="m-auto" src="/assets/winsm.jfif" alt="">
+                <p class="text-blue-600 underline cursor-pointer my-3 font-medium">Get Windows 11</p>
+            </div>
+        </div>
     </main>
+    <div class="flex place-content-end">
+        <button class="h-9 w-36 m-4 font-bold bg-slate-300 hover:bg-white hover:shadow-md" onclick="scrolltop()">
+            Back to Top
+        </button>
+    </div>
     <footer>
+        <div class="h-72 bg-slate-200 flex">
+            <div class="m-auto text-slate-700 font-medium">What's new <div>
+                    <p class="font-normal text-slate-600 text-xs hover:underline cursor-pointer my-4">Microsft 365</p>
+                    <p class="font-normal text-slate-600 text-xs hover:underline cursor-pointer my-4">Surface Pro X</p>
+                    <p class="font-normal text-slate-600 text-xs hover:underline cursor-pointer my-4">Surface Pro 7</p>
+                    <p class="font-normal text-slate-600 text-xs hover:underline cursor-pointer my-4">Windows 11 apps
+                    </p>
+                </div>
+            </div>
+            <div class="m-auto text-slate-700 font-medium">Microsoft Store
+                <div>
+                    <p class="font-normal text-slate-600 text-xs hover:underline cursor-pointer my-4">Account Profile
+                    </p>
+                    <p class="font-normal text-slate-600 text-xs hover:underline cursor-pointer my-4">Download Center
+                    </p>
+                    <p class="font-normal text-slate-600 text-xs hover:underline cursor-pointer my-4">Returns</p>
+                    <p class="font-normal text-slate-600 text-xs hover:underline cursor-pointer my-4">Order Tracking</p>
+                </div>
+            </div>
+            <div class="m-auto text-slate-700 font-medium">Education
+                <div>
+                    <p class="font-normal text-slate-600 text-xs hover:underline cursor-pointer my-4">Microsft in
+                        Education
+                    </p>
+                    <p class="font-normal text-slate-600 text-xs hover:underline cursor-pointer my-4">Devices For
+                        Education
+                    </p>
+                    <p class="font-normal text-slate-600 text-xs hover:underline cursor-pointer my-4">Office Education
+                    </p>
+                    <p class="font-normal text-slate-600 text-xs hover:underline cursor-pointer my-4">Azure for Students
+                    </p>
+                </div>
+            </div>
+            <div class="m-auto text-slate-700 font-medium">Business
+                <div>
+                    <p class="font-normal text-slate-600 text-xs hover:underline cursor-pointer my-4">Microsft Cloud</p>
+                    <p class="font-normal text-slate-600 text-xs hover:underline cursor-pointer my-4">Microsft Security
+                    </p>
+                    <p class="font-normal text-slate-600 text-xs hover:underline cursor-pointer my-4">Azure</p>
+                    <p class="font-normal text-slate-600 text-xs hover:underline cursor-pointer my-4">Dynamics 365</p>
+                </div>
+            </div>
 
+        </div>
+        <div class="bg-slate-200 h-16 flex">
+            <span class="flex m-auto">
+                <img src="/assets/globe2.svg" alt="" class="h-4 opacity-50 mr-2 mt-1">
+                <p class="opacity-50">English (India)</p>
+            </span>
+            <p class="m-auto opacity-50">© Microsoft 2022</p>
+        </div>
     </footer>
+
+
     <script type="text/javascript" src="/index.js"></script>
+
 </body>
 
 </html>

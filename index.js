@@ -1,7 +1,8 @@
-function search(){
-    document.getElementById("input-search");
-}
+// scroll to top logic
+function scrolltop() {
+    window.scroll({
+        top: 0,
+        behavior:"smooth"
+    });
+};
 
-
-
-document.getElementById("u-name").innerHTML =  ;
